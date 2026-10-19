@@ -1,0 +1,2 @@
+Python é uma linguagem muito utilizada em cybersecurity.
+Ela é a base do machine learning
