@@ -13,7 +13,7 @@ git clone https://github.com/Arthurcodehub/text-count.git
 cd text-count
 python main.py
 ```
-# no Linux, use python3
+- No Linux use python3
 
 Digite o caminho do arquivo (com ou sem aspas) e receba a contagem de linhas e palavras.
 
