@@ -11,18 +11,23 @@ Projeto educacional desenvolvido para praticar Python e manipulação de arquivo
 ```bash
 git clone https://github.com/Arthurcodehub/text-count.git
 cd text-count
-python main.py
+python src/text_count/main.py
 ```
-- No Linux use python3
 
-Digite o caminho do arquivo (com ou sem aspas) e receba a contagem de linhas e palavras.
+No Linux, use `python3`.
+
+Também é possível rodar com o [uv](https://docs.astral.sh/uv/), que instala a versão de Python definida em `.python-version` e gerencia o ambiente automaticamente:
+
+```bash
+uv run src/text_count/main.py
+```
 
 ## Recursos
 
 - Contagem de linhas
 - Contagem de palavras
 - Aceita caminho com ou sem aspas
-- Mensagem clara em caso de erro ao abrir o arquivo
+- Mensagem clara em caso de erro ao abrir o arquivo e etc...
 
 ## Status
 
